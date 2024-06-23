@@ -57,7 +57,7 @@ ul li.about_usr{
 h2{
     font-family: outfit;
     font-size: 2.2em;
-    padding-left: 17%;
+    padding-left: 8%;
     margin-top: 3%;
 }
 h3{
@@ -70,12 +70,12 @@ h3{
 
 .btn_create_post{
     box-shadow: 4px 6px 4px rgba(0, 0, 0, .25);
-    border-radius: 30px;
+    border-radius: 10px;
     border-style: none;
     background-color: #5096FF;
     color: #FFFFFF;
     font-family: outfit;
-    width: 30%;
+    width: 12em;
     font-size: 2em;
     font-weight: 500;
     text-align: center;
@@ -88,4 +88,8 @@ h3{
     color: #5096FF;
     transform: scale(1.2);
     border-radius: #5096FF 2px;
+    
 }
+
+
+
