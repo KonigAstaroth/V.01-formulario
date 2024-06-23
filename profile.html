@@ -3,7 +3,9 @@
     <title>Perfil</title>
     <link rel="stylesheet" href="/Styles/banner.css">
     <link rel="stylesheet" href="/Styles/perfil.css">
+    <link rel="stylesheet" href="/Styles/search_bar.css">
 </head>
+
 
 <html>
     <body>
@@ -26,11 +28,26 @@
         </header>
         <br>
 
+        <form>
+            <input type="text" class="search_bar" placeholder="¿Qué vamos a cocinar hoy?"> 
+            <img src="/pictures/buscar.png" class="search_icon">
+        </form>
+
         <div class="info">
+            <img class = "usr_img" src="/pictures/usuario (1).png">
             <ul class="about">
-                <li class="about_usr">Nombre:</li>
+                <li class="name_usr">John Doe</li>
                 <li class="about_usr">Nivel:</li>
+                <li class="about_usr">20 recetas</li>
+                <li class="about_usr">Rating:</li>
             </ul>
+        </div>
+        <br>
+        
+        <h2>Tus publicaciones</h2>
+        <div class="create_posts">
+            <h3>Luces, cámara y a cocinar!</h3>
+            <button class="btn_create_post">Publicar nueva receta</button>
         </div>
 
         <footer>
