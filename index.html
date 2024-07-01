@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head>
     <title>Registrarse</title>
-    <link rel="stylesheet" href="/Styles/stylesheet.css">
-    <link rel="stylesheet" href="/Styles/banner.css">
+    <link rel="stylesheet" href="V.01-formulario/Styles/stylesheet.css">
+    <link rel="stylesheet" href="V.01-formulario/Styles/banner.css">
 </head>
 <html>
     <body>
@@ -15,9 +15,9 @@
                         <a href="#" class="menu">Opciones</a>
                         <ul class="dropdown">
                             <li><a href="#">Inicio</a></li>
-                            <li><a href="/profile.html">Perfil</a></li>
+                            <li><a href="php/profile.php">Perfil</a></li>
                             <li><a href="#">Contacto</a></li>
-                            <li><a href="/index.html">Registro/Inicio de sesión</a></li>
+                            <li><a href="index.php">Registro/Inicio de sesión</a></li>
                             <li><a href="#">Cerrar sesión</a></li>
                         </ul>
                     </li>
@@ -31,15 +31,15 @@
         <div class="contenedor">
             <div class="registro">
                 <h3>Regístrarse:</h3>
-                <form>
+                <form method="post" action="php/register.php">
                     <div>
                     <label for="u_name">Nombre:</label> <br>
                     <input type=" text" id="u_name" name ="u_name" placeholder="Escribe tu nombre">
                     <br>
                     <label for="u_mail">Correo:</label> <br>
-                    <input type=" text" id= "u_mail" name= "u_mail" placeholder="Ingresa tu correo electrónico"><br>
+                    <input type=" text" id= "u_mail" name= "u_mail" placeholder="Ingresa tu correo electrónico" ><br>
                     <label>Contraseña:</label> <br>
-                    <input type=" text" placeholder="Escribe una contraseña">
+                    <input type=" text" name="pass" placeholder="Escribe una contraseña">
                     </div>
                     <div class="send_div">
                         <button type="submit" class="send">¡A cocinar!</button>
