@@ -28,7 +28,7 @@ hr{
     background-image: url(/pictures/bck_signup.jpeg);
     padding-top: .5%;
 }
-h3{
+.registro_letter{
     font-family: outfit;
     color: white;
     font-weight: 600;
