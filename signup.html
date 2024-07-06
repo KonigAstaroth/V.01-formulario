@@ -3,8 +3,6 @@
     <title>Registrarse</title>
     <link rel="stylesheet" href="/Styles/stylesheet.css">
     <link rel="stylesheet" href="/Styles/banner.css">
-    <link rel="stylesheet" href="/Styles/search_bar.css">
-    <link rel ="stylesheet" href="/Styles/homepage.css">
 </head>
 <html>
     <body>
@@ -26,21 +24,38 @@
                 </ul>
             </nav>
         </header>
-        <form>
-            <input type="text" class="search_bar" placeholder="¿Qué vamos a cocinar hoy?"> 
-            <img src="/pictures/buscar.png" class="search_icon">
-        </form>
-        
 
-        <div class="week_recom">
-            <h2 class="week_banner">Las mejores recetas de la semana</h2>
+        <br>
+        <h2>¡Hola! Te damos la bienvenida a Chef en Casa</h2>
+        <hr>
+        <div class="contenedor">
+            <div class="registro">
+                <h3>Regístrarse:</h3>
+                <form>
+                    <div>
+                    <label for="u_name">Nombre:</label> <br>
+                    <input type=" text" id="u_name" name ="u_name" placeholder="Escribe tu nombre">
+                    <br>
+                    <label for="u_mail">Correo:</label> <br>
+                    <input type=" text" id= "u_mail" name= "u_mail" placeholder="Ingresa tu correo electrónico"><br>
+                    <label>Contraseña:</label> <br>
+                    <input type=" text" placeholder="Escribe una contraseña">
+                    </div>
+                    <div class="send_div">
+                        <button type="submit" class="send">¡A cocinar!</button>
+                    </div>
+                </form>
+                
+            </div>
+            <a class="login" href="/login.htm">¿Ya tienes una cuenta? Inicia sesión aquí</a>
         </div>
 
-
+        
         <div class="contact">
             <h5>Copyright© Chef en Casa 2024</h5>
             <p>Todos los derechos reservados a sus respectivos creadores</p>
             <p>Avisos de privacidad</p>
         </div>
+
     </body>
 </html>
