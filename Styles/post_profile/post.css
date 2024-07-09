@@ -14,7 +14,8 @@
     margin-top: -22em;
     display: flex;
     position: absolute;
-    padding-left: 45%;
+    padding-left: 50%;
+   
 }
 .about_post{
     display: flex;
@@ -35,9 +36,11 @@ ul li.post_info{
 .miniatura_post{
     max-width: 500px;
     max-height: 300px;
-    padding-left: 10%;
-    padding-top: 3%;
+    
+    margin-left: 10%;
+    margin-top: 3%;
     border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 25);
 }
 .bttn_verReceta{
     box-shadow: 4px 6px 4px rgba(0, 0, 0, .25);
@@ -59,4 +62,11 @@ ul li.post_info{
     color: #5096FF;
     transform: scale(1.2);
     border-radius: #5096FF 2px;
+}
+
+.fecha_post{
+    font-family: outfit;
+    font-size: 1.8em;
+    text-align: justify;
+    
 }
