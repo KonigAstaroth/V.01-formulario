@@ -25,10 +25,10 @@ hr{
     margin: auto;
     border-radius: 60px;
     box-shadow: 10px 10px 15px rgba(0, 0, 15, .25);
-    background-image: url("V.01-formulario/pictures/bck_signup.jpeg");
+    background-image: url("../pictures/bck_signup.jpeg");
     padding-top: .5%;
 }
-h3{
+.registro_letter{
     font-family: outfit;
     color: white;
     font-weight: 600;
